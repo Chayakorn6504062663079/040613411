@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Information Table</title>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<h2>User Information</h2>
+
+<table>
+    <tr>
+        <th>ข้อมูล</th>
+        <th>คำตอบ</th>
+    </tr>
+    <tr>
+        <td>ชื่อเต็ม/ย่อของสาขาวิชา</td>
+        <td><input type="text" name="major_name"></td>
+    </tr>
+    <tr>
+        <td>จำนวนเงินที่จะโอน</td>
+        <td><input type="number" name="transfer_amount"></td>
+    </tr>
+    <tr>
+        <td>อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย</td>
+        <td><input type="text" name="favorite_foods"></td>
+    </tr>
+    <tr>
+        <td>ค่าไฟฟ้า 3 เดือนที่ผ่านมา</td>
+        <td><input type="number" name="electricity_bill"></td>
+    </tr>
+    <tr>
+        <td>รหัสบัตรประชาชน</td>
+        <td><input type="text" name="citizen_id"></td>
+    </tr>
+    <tr>
+        <td>ความพึงพอใจของหนังสือเล่มนี้</td>
+        <td><input type="text" name="book_satisfaction"></td>
+    </tr>
+    <tr>
+        <td>อาการป่วย</td>
+        <td><input type="text" name="symptoms"></td>
+    </tr>
+    <tr>
+        <td>ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่</td>
+        <td><input type="text" name="vaccine_status"></td>
+    </tr>
+    <tr>
+        <td>รหัสผ่าน</td>
+        <td><input type="password" name="password"></td>
+    </tr>
+    <tr>
+        <td>เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน</td>
+        <td><input type="text" name="class_time"></td>
+    </tr>
+    <tr>
+        <td>วันเวลาที่ต้องไปพบแพทย์</td>
+        <td><input type="text" name="doctor_appointment"></td>
+    </tr>
+</table>
+
+</body>
+</html>
